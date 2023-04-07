@@ -29,3 +29,5 @@
 
 9. Lastly I have created a stacked column chart to give revenue breakdown between FY16-FY18, and a Bridge chart to give breakdown between EBITDA FY17-FY18.
   
+![](https://github.com/Inder-rana/course_projects/blob/main/Excel_P%26L/image_P%26L.PNG)
+
