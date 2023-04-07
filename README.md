@@ -1,2 +1,2 @@
-# course_projects
-Course projects that I have worked on.
+# Course_projects
+Data analytics course projects that I have worked on.
