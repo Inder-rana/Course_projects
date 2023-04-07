@@ -9,7 +9,7 @@
 **Intro to Excel:** https://365datascience.com/courses/introduction-to-microsoft-excel/
 
 ### Steps I have taken to complete this project:
-**Github file name:** `P&L` open this file and follow along with the describe steps below.
+**Github file name:** `Before_P&L` is an incomplete file and `After_P&L` is a complete file, open these files and follow along with the describe steps below.
 
 1. First, I went through the raw financial extractions of FY2016, FY2017 and FY2018. Get the feel for the data and its components, it consists of various columns, like type of P&L account, partner company code, amounts, and account number.
 
