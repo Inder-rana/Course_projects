@@ -11,27 +11,27 @@
 
 **1.** I started with analyzing the raw data of the real estate company on sheet name `Real estate dataset`, just to get the feel for the data and its proprieties, it consist of 2 tables product, customer and their relevant columns.
 
-![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/image_dataset.PNG)
+![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/images/image_dataset.PNG)
 
 **2.** After I went through the raw data, in the next sheet name `Gender` I have created a frequency distribution table of Male, Female and Firms. Along with a pie chart to represent their respective frequency, I have also included Firms, Firms have no gender. However, I need to add them to this pie chart, as otherwise, we will get a wrong interpretation of the data.
 
-![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/Image_gender_frequency.PNG)
+![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/images/Image_gender_frequency.PNG)
 
 **3.** I have created another sheet name `Location` with a frequency distribution table and a bar chart with Pareto diagram of different locations in the US and abroad, from the chart For example, California, Nevada, and Oregon together, account for 81% of all purchases. 
 
-![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/image_location_frequency.PNG)
+![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/images/image_location_frequency.PNG)
 
 **4.** Next sheet name `Age` in this sheet I have created a Age frequency table with histogram and cumulative frequency line on top of the histogram, also calculated mean, median, mode, skew, variance and standard deviation of the age.
 
-![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/image_age_frequency.PNG)
+![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/images/image_age_frequency.PNG)
 
 **5.** Then I created a scatter plot to show relationship between Age and Price, also calculated the covariance and correlation coefficient.
 
-![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/image_age_price.PNG)
+![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/images/image_age_price.PNG)
 
-**6. **I also created another scatter plot to show the relationship between price and size of the property.
+**6.** I also created another scatter plot to show the relationship between price and size of the property.
 
-![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/image_price_size.PNG)
+![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/images/image_price_size.PNG)
 
 ### Conclusion:
 
