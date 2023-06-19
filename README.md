@@ -1,2 +1,2 @@
-# Course_projects
-Data analytics course projects that I have worked on.
+# Guided Projects
+Data Analytics Guided projects that I have worked on.
