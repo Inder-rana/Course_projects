@@ -30,9 +30,12 @@ t_employees e ON d.emp_no = e.emp_no
 GROUP BY Calender_year , e.gender
 HAVING Calender_year >= 1990;
 ```
-
+**SQL Output 1**
 
 ![SQL Output](https://github.com/Inder-rana/course_projects/blob/main/Gender_gap_SQL_Tableau/images/image_SQL_output_task1.PNG "SQL Output 1")
+
+**Tableau Chart 1**
+
 ![Tableau Chart 1](https://github.com/Inder-rana/course_projects/blob/main/Gender_gap_SQL_Tableau/images/image_chart1.PNG "Tableau chart 1")
 
 
@@ -72,8 +75,12 @@ FROM
     t_employees ee ON dm.emp_no = ee.emp_no
 ORDER BY dm.emp_no , e.calendar_year;
 ```
+**SQL Output 2**
 
 ![](https://github.com/Inder-rana/course_projects/blob/main/Gender_gap_SQL_Tableau/images/image_SQL_output_task2.PNG "SQL Output 2")
+
+**Tableau Chart 2**
+
 ![](https://github.com/Inder-rana/course_projects/blob/main/Gender_gap_SQL_Tableau/images/image_chart2.PNG "Tableau chart 2")
 
 
@@ -100,8 +107,12 @@ GROUP BY d.dept_no , e.gender , calendar_year
 HAVING calendar_year <= 2002
 ORDER BY d.dept_no;
 ```
+**SQL Output 3**
 
 ![](https://github.com/Inder-rana/course_projects/blob/main/Gender_gap_SQL_Tableau/images/image_SQL_output_task3.PNG "SQL Output 3")
+
+**Tableau Chart 3**
+
 ![](https://github.com/Inder-rana/course_projects/blob/main/Gender_gap_SQL_Tableau/images/image_chart3.PNG "Tableau chart 3")
 
 
@@ -136,8 +147,12 @@ delimiter ;
 
 call filter_salary(50000,90000);
 ```
+**SQL Output 4**
 
 ![](https://github.com/Inder-rana/course_projects/blob/main/Gender_gap_SQL_Tableau/images/image_SQL_output_task4.PNG "SQL Output 4")
+
+**Tableau Chart 4**
+
 ![](https://github.com/Inder-rana/course_projects/blob/main/Gender_gap_SQL_Tableau/images/image_chart4.PNG "Tableau chart 4")
 
 **5.** Lastly, I have created a complete Tableau dashboard combined with all 4 charts I have created. 
