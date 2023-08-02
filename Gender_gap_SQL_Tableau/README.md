@@ -13,7 +13,7 @@
 
 ![](https://github.com/Inder-rana/course_projects/blob/main/Gender_gap_SQL_Tableau/image_database.PNG "Relational Schema")
 
-**1.** I write a SQL query in the MySQL database name `Employees_mod` to get the breakdown between the male and female employees working in the company each year, starting from 1990. Then I exported the SQL output into the CSV file name `Task 1_csv`, and then later on I imported this CSV file into Tableau as a Text file, then create chart 1 showing the cumulative breakdown between male and female employees starting from 1990 to 2002.
+**1.** I wrote a SQL query in the MySQL database name `Employees_mod` to get the breakdown between the male and female employees working in the company each year, starting from 1990. Then I exported the SQL output into the CSV file name `Task 1_csv`, and then later on I imported this CSV file into Tableau as a Text file, then create chart 1 showing the cumulative breakdown between male and female employees starting from 1990 to 2002.
 
 
 	SQL query used: 
@@ -40,7 +40,7 @@ HAVING Calender_year >= 1990;
 
 
 
-**2.** I write another SQL query to compare the number of male managers to the number of female managers from different departments for each year, starting from 1990. Exported the SQL result to the CSV file name `Task 2_csv`, and then created a Tableau chart 2 to give the breakdown of male and female managers in the different departments.
+**2.** I wrote another SQL query to compare the number of male managers to the number of female managers from different departments for each year, starting from 1990. Exported the SQL result to the CSV file name `Task 2_csv`, and then created a Tableau chart 2 to give the breakdown of male and female managers in the different departments.
 
 
 	SQL query used:
@@ -85,7 +85,7 @@ ORDER BY dm.emp_no , e.calendar_year;
 
 
 
-**3.** I write another SQL query in the same database to compare the average salary of female versus male employees in the entire company until the year 2002 and add a filter allowing us to see that per department. then I Exported the SQL results to the CSV file name `Task 3_csv`, and then created chart 3 in Tableau which gives the breakdown of average annual employee salary and can be filtered by gender and department name.
+**3.** I wrote another SQL query in the same database to compare the average salary of female versus male employees in the entire company until the year 2002 and add a filter allowing us to see that per department. then I Exported the SQL results to the CSV file name `Task 3_csv`, and then created chart 3 in Tableau which gives the breakdown of average annual employee salary and can be filtered by gender and department name.
 
 	SQL query used:
 
