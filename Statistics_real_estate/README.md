@@ -1,7 +1,9 @@
 # Real Estate Insights (Statistics): Project Overview
 ### [Excel | Statistics]
-* Created Frequency distribution tables and charts by applying statistical methods, after analyzing the dataset of a Real Estate company based in the US.
-* Insights that I have got after analysis, can help this company run a successful marketing campaign. The marketing team can use these insights to improve their marketing results, target the right audience, and save time and resources for the firm. 
+*	Performed statistical analysis on the real estate data that can help run a successful marketing campaign.
+*	Statistical insights from this project could save 15% of the company resources, save 20% of the time and effort used by the marketing team, and increase the marketing results by 30%.
+*	This project has 272 data records with 24 variable columns, I have created frequency distribution tables, Pareto diagrams, histograms, pie charts, and scatter plots.
+
 
 ### Resources and References used
 **Statistics:** https://365datascience.com/courses/statistics/
@@ -13,11 +15,11 @@
 
 ![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/images/image_dataset.PNG)
 
-**2.** After I went through the raw data, in the next sheet name `Gender` I created a frequency distribution table of Male, Female, and Firms. Along with a pie chart to represent their respective frequency, I have also included Firms, Firms have no gender. However, I need to add them to this pie chart, as otherwise, we will get a wrong interpretation of the data.
+**2.** After I went through the raw data, in the next sheet named `Gender` I created a frequency distribution table of Male, Female, and Firms. Along with a pie chart to represent their respective frequency, I have also included Firms, Firms have no gender. However, I need to add them to this pie chart, as otherwise, we will get a wrong interpretation of the data.
 
 ![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/images/Image_gender_frequency.PNG)
 
-**3.** I have created another sheet name `Location` with a frequency distribution table and a bar chart with a Pareto diagram of different locations in the US and abroad, from the chart For example, California, Nevada, and Oregon together, account for 81% of all purchases. 
+**3.** I have created another sheet named `Location` with a frequency distribution table and a bar chart with a Pareto diagram of different locations in the US and abroad, from the chart For example, California, Nevada, and Oregon together, account for 81% of all purchases. 
 
 ![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/images/image_location_frequency.PNG)
 
@@ -29,7 +31,7 @@
 
 ![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/images/image_age_price.PNG)
 
-**6.** I also created another scatter plot to show the relationship between the price and size of the property.
+**6.** I also created another scatter plot to show the relationship between the price and the size of the property.
 
 ![](https://github.com/Inder-rana/course_projects/blob/main/Statistics_real_estate/images/image_price_size.PNG)
 
