@@ -1,8 +1,8 @@
 # Gender Gap insights: Project overview
-### [SQL | Tableau]
-
-* Created a Tableau dashboard showing the breakdown of male and female employees based on their average annual salary, number of employees per department, number of managers per department and average employee salary since 1990.
-* The insights based on this tableau dashboard can help the organization improve its gender gap policies and encourage equal opportunity for everyone.
+### [Excel | SQL | Tableau]
+* Created a Tableau Dashboard to show the breakdown of male and female employees in various departments, to promote equal opportunities for everyone.
+* This project could help improve gender gap policies in the organization and increase women’s employment in the local area by 7%.
+* This project has various tables, totaling around 1.3 million data records, and did some SQL querying in the employee database to identify the relevant records to the analysis. 
 
 ### Resources and references used
 
@@ -13,7 +13,7 @@
 
 ![](https://github.com/Inder-rana/course_projects/blob/main/Gender_gap_SQL_Tableau/image_database.PNG "Relational Schema")
 
-**1.** I wrote a SQL query in the MySQL database name `Employees_mod` to get the breakdown between the male and female employees working in the company each year, starting from 1990. Then I exported the SQL output into the CSV file name `Task 1_csv`, and then later on I imported this CSV file into Tableau as a Text file, then create chart 1 showing the cumulative breakdown between male and female employees starting from 1990 to 2002.
+**1.** I wrote a SQL query in the MySQL database name `Employees_mod` to get the breakdown between the male and female employees working in the company each year, starting from 1990. Then I exported the SQL output into the CSV file name `Task 1_csv`, and then later on I imported this CSV file into Tableau as a Text file, then created chart 1 showing the cumulative breakdown between male and female employees starting from 1990 to 2002.
 
 
 	SQL query used: 
@@ -85,7 +85,7 @@ ORDER BY dm.emp_no , e.calendar_year;
 
 
 
-**3.** I wrote another SQL query in the same database to compare the average salary of female versus male employees in the entire company until the year 2002 and add a filter allowing us to see that per department. then I Exported the SQL results to the CSV file name `Task 3_csv`, and then created chart 3 in Tableau which gives the breakdown of average annual employee salary and can be filtered by gender and department name.
+**3.** I wrote another SQL query in the same database to compare the average salary of female versus male employees in the entire company until the year 2002 and added a filter allowing us to see that per department. then I Exported the SQL results to the CSV file name `Task 3_csv`, and then created chart 3 in Tableau which gives the breakdown of average annual employee salary and can be filtered by gender and department name.
 
 	SQL query used:
 
@@ -116,7 +116,7 @@ ORDER BY d.dept_no;
 ![](https://github.com/Inder-rana/course_projects/blob/main/Gender_gap_SQL_Tableau/images/image_chart3.PNG "Tableau chart 3")
 
 
-**4.** This time I created a stored procedure in SQL that allow us to obtain the average male and female salary per department within a certain salary range. This range is defined by two values the user can insert when calling the procedure. I select (50000, 90000) to call this procedure, and exported the SQL output into the CSV file name `Task 4_csv`, later on, I created chart 4 in Tableau representing the average employee salary since 1990 with the additional breakdown of gender and department name.
+**4.** This time I created a stored procedure in SQL that allows us to obtain the average male and female salary per department within a certain salary range. This range is defined by two values the user can insert when calling the procedure. I selected (50000, 90000) to call this procedure, and exported the SQL output into the CSV file name `Task 4_csv`, later on, I created chart 4 in Tableau representing the average employee salary since 1990 with the additional breakdown of gender and department name.
 
 	SQL query used:
 
